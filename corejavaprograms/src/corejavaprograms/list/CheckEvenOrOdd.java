@@ -1,6 +1,5 @@
 package corejavaprograms.list;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
 
@@ -100,7 +99,6 @@ public class CheckEvenOrOdd {
 		String result = (number % 2 == 0) ? "even" : "Odd";
 		System.out.println(result);
 	}
-
 	private static void evenOrOdd(int number) {
 		if (number % 2 == 0) {
 			System.out.println(number + ":is even");
